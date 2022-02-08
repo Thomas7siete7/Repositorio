@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="header__barra">
+          <h2><a href="index.html" class="logo">Tomas<span class="span__nombre"> Barrio</span></a></h2>
+          <nav>
+            <ul class="header__menu">
+              <il class="header__links"><a href="quiensoy.html">Quién soy</a></il>
+              <il class="header__links"><a href="experiencia.html">Experiencia</a></il>
+              <il class="header__links"><a href="clientes.html">Clientes</a></il>
+              <il class="header__links"><a href="horario.html">Horarios</a></il>
+              <il class="header__links"><a href="contacto.html">Contacto</a></il>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor form__principal">
+      <h1 class="flex-centrar">Contacto</h1>
+      <div class="shadow separar">
+        <div class="contacto-form">
+          <form action="" class="formulario__datos">
+            <fieldset>
+              <label for="nombre">Nombre:</label>
+              <input type="text" placeholder="Ingrese su nombre" name="nombre" class="input" />
+
+              <label for="apellido">Apellido:</label>
+              <input type="text" placeholder="Ingrese su apellido" name="apellido"  class="input"/>
+      
+              <label>Email:</label>
+              <input type="email" placeholder="Ingrese su email"  class="input"/>
+      
+              <label>Seleccione el horario:</label>
+              <select name="horarios" class="formulario__hora">
+                <option value="8-9">8-9hs</option>
+                <option value="9-10">9-10s</option>
+                <option value="10-11">10-11hs</option>
+                <option value="11-12">11-12hs</option>
+                <option value="14-15">14-15hs</option>
+                <option value="15-16">15-16hs</option>
+                <option value="16-17">16-17hs</option>
+                <option value="17-18">17-18hs</option>
+                <option value="18-19">18-19hs</option>
+                <option value="19-20">19-20hs</option>
+                <option value="20-21">20-21hs</option>
+              </select>
+      
+              <label>Dudas:</label>
+              <textarea placeholder="Ingrese su duda"></textarea>
+
+              <div class="boton">
+                <input type="submit" value="enviar" />
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="form__info">
+          <h2>Más <span>info</span></h2>
+          <ul class="form__ul">
+            <il>
+              <div class="form__div">
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/tomas.barrio/" target="blank">instagram</a>
+              </div>
+            </il>
+
+            <il>
+              <div class="form__div">
+                <i class="fas fa-envelope"></i>
+                <a href="https://mail.google.com/" target="blank">mail</a>
+              </div>
+            </il>
+
+            <il>
+              <div class="form__div">
+                <i class="fab fa-youtube"></i>
+                <a href="https://www.youtube.com/watch?v=zL19uMsnpSU" target="blank">youtube</a>
+              </div>
+            </il>
+          </ul>
+          <div class="contact__img">
+            <img src="fotos/proyecto1/tomi-pulgar.png" alt="Tomas barrio de costado">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h4>Todos los derechos reservados</h4>
+      <p>Ramos Mejía, La Matanza</p>
+    </footer>
+  </body>
+</html>
