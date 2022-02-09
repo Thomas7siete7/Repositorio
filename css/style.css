@@ -49,7 +49,7 @@ span {
 }
 
 /*HEADER*/
-.header__barra {
+/* .header__barra {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
@@ -58,6 +58,46 @@ span {
 .header__menu {
   display: flex;
   gap: 2rem;
+}
+
+.checkbtn{
+  font-size: 3rem;
+  color: #fff;
+  float: right;
+  line-height: 8rem;
+  margin-right: 4rem;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+} */
+
+nav{
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content:space-around;
+}
+
+nav ul li{
+  margin: 0 0.5rem;
+}
+nav ul li a{
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+li a.active, li a:hover{
+
 }
 
 /*FOOTER*/
@@ -302,70 +342,27 @@ select, option, textarea{
   z-index: -1;
 }
 
-@media (min-width: 768px) {
-
-  fieldset{
-    font-size: 3rem;
-  }
-
-  .contacto-form form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-  }
-
-  .separar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 75rem;
-  }
-  .contacto-form form input{
-    height: 5rem;
-    font-size: 2rem;
-  }
-
-  .form__info{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .form__ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
-    margin-top: 4rem;
-  }
-  .contact__img{
-   position: absolute;
-   height: 45rem;
-   width: 38rem;
-  }
-  .form__info img{
-    width: 40rem;
-    height: 60rem;
-    margin-left: 15rem;
-    z-index: -1;
-  }
-}
-
 /*MEDIA QUERIS*/
 
 /*HEADER*/
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header__menu {
-    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
   }
 
-  .header__menu-phone{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  .checkbtn{
+    display: block;
   }
+
 }
 @media (min-width: 768px) {
   .header__menu-phone {
     display: none;
   }
-}
+} */
 
 /*FOOTER*/
 @media (max-width: 768px) {
@@ -496,5 +493,52 @@ select, option, textarea{
   
   .horarios__tabla td {
     font-size: 1.5rem;
+  }
+}
+
+/*CONTACTO*/
+@media (min-width: 768px) {
+
+  fieldset{
+    font-size: 3rem;
+  }
+
+  .contacto-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+
+  .separar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 75rem;
+  }
+  .contacto-form form input{
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+  .form__info{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .form__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    margin-top: 4rem;
+    z-index: 1;
+  }
+  .contact__img{
+   position: absolute;
+   height: 45rem;
+   width: 38rem;
+  }
+  .form__info img{
+    width: 40rem;
+    height: 60rem;
+    margin-left: 15rem;
+    z-index: -1;
   }
 }

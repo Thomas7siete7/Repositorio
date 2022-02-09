@@ -1,70 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="grid">
-      <header class="contenedor">
-          <div class="header__barra">
-            <h2><a href="index.html" class="logo">Tomas<span class="span__nombre"> Barrio</span></a></h2>
-            <nav>
-              <ul class="header__menu">
-                <il class="header__links"><a href="quiensoy.html">Quién soy</a></il>
-                <il class="header__links"><a href="experiencia.html">Experiencia</a></il>
-                <il class="header__links"><a href="clientes.html">Clientes</a></il>
-                <il class="header__links"><a href="horario.html">Horarios</a></il>
-                <il class="header__links"><a href="contacto.html">Contacto</a></il>
-              </ul>
 
-              <ul class="header__menu-phone">
-                <il class="header__links"><a href="quiensoy.html">Quién soy</a></il>
-                <il class="header__links"><a href="experiencia.html">Experiencia</a></il>
-                <il class="header__links"><a href="clientes.html">Clientes</a></il>
-                <il class="header__links"><a href="horario.html">Horarios</a></il>
-                <il class="header__links"><a href="contacto.html">Contacto</a></il>
-              </ul>
-            </nav>
-          </div>
-      </header>
-  
-      <article class="contenedor presentacion flex-centrar">
-        <main class="presentacion__texto ">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nobis
-            nostrum, veniam fugit error, dicta sapiente recusandae, consequatur
-            enim pariatur sequi porro quidem voluptas dolor non reiciendis cumque.
-            A, voluptas.
-          </p>
-          <h3>Entrena<span class="span__nombre"> YA!</span></h3>
-        </main>
-        <div class="div__img">
-          <img
-            src="fotos/proyecto1/tomi-costado2.png"
-            alt="Tomas Barrio de costado"
-            class="img-global"
-          />
-        </div>
-      </article>
-      
-      <div class="fondo">
-        <video src="videos/therock3.mp4" autoplay muted loop type="video/mp4"></video>
-      </div>
-  
-      <footer class="contenedor">
-        <h4>Todos los derechos reservados</h4>
-        <p>Ramos Mejía, La Matanza</p>
-        </div>
-      </footer>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;600&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header >
+      <nav>
+        <h2><a href="index.html" class="logo">Tomas<span class="span__nombre"> Barrio</span></a></h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="header__menu">
+          <li class="header__links"><a href="quiensoy.html">Quién soy</a></li>
+          <li class="header__links"><a href="experiencia.html">Experiencia</a></li>
+          <li class="header__links"><a href="clientes.html">Clientes</a></li>
+          <li class="header__links"><a href="horario.html">Horarios</a></li>
+          <li class="header__links"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     
-  </body>
+  </header>
+
+  <article class="contenedor presentacion flex-centrar">
+    <main class="presentacion__texto ">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nobis
+        nostrum, veniam fugit error, dicta sapiente recusandae, consequatur
+        enim pariatur sequi porro quidem voluptas dolor non reiciendis cumque.
+        A, voluptas.
+      </p>
+      <h3>Entrena<span class="span__nombre"> YA!</span></h3>
+    </main>
+    <div class="div__img">
+      <img src="fotos/proyecto1/tomi-costado2.png" alt="Tomas Barrio de costado" class="img-global" />
+    </div>
+  </article>
+
+  <div class="fondo">
+    <video src="videos/therock3.mp4" autoplay muted loop type="video/mp4"></video>
+  </div>
+
+  <footer class="contenedor">
+    <h4>Todos los derechos reservados</h4>
+    <p>Ramos Mejía, La Matanza</p>
+    </div>
+  </footer>
+</body>
 </html>
