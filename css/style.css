@@ -373,12 +373,13 @@ select, option, textarea{
 /*FOOTER*/
 @media (max-width: 768px) {
   footer {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
   }
-
+.margin{
+  margin-top: 4rem;
+}
   footer h4,
   footer p {
     font-size: small;
