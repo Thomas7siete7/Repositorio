@@ -1,14 +1,14 @@
 /*RESETS*/
-* {
+* { 
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
   vertical-align: baseline;
-  text-decoration: none;
-  list-style: none;
+  text-decoration: none !important;
+  list-style: none !important;
   color: whitesmoke;
-}
+} 
 
 html {
   /*1 rem= 10px*/
@@ -21,6 +21,11 @@ body {
   background-color: rgb(22, 22, 22);
 }
 
+.color{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
 /*RECICLADOS*/
 .presentacion__texto {
   position: relative;
@@ -28,6 +33,7 @@ body {
 
 span {
   color: blue;
+  font-size: 2.5rem;
 }
 
 .quienSoy__article,
@@ -56,27 +62,8 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
+} 
 
-.header__menu{
-  display: flex;
-  justify-content:space-around;
-  gap: 3rem;
-}
-
-nav ul li{
-  margin: 0 0.5rem;
-}
-nav ul li a{
-  color: #fff;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-}
-
-li a.active, li a:hover{
-  background: #3ea7f2;
-  transition: .5s;
-}
 
 .checkbtn{
   font-size: 3rem;
@@ -153,6 +140,7 @@ footer {
 /*EXPERIENCIA*/
 .experiencia__article,
 .experiencia__texto {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -162,7 +150,6 @@ footer {
 }
 
 .experiencia__texto {
-  flex-direction: column;
   font-size: 1.3rem;
   gap: 3rem;
 }
@@ -205,6 +192,14 @@ iframe {
   height: 10rem;
   width: 13.5rem;
 }
+
+.carousel-item img{
+  height: 40rem;
+  width: 100%;
+}
+
+
+
 /*HORARIO*/
 .horario {
   display: flex;
@@ -335,11 +330,7 @@ select, option, textarea{
                                           /*MEDIA QUERIS*/
 
 /*HEADER*/
-@media(max-width: 952px){
-  nav ul li a{
-    font-size: 16px;
-  }
-}
+
 
 @media (max-width: 858px) {
   .checkbtn{
@@ -351,10 +342,12 @@ select, option, textarea{
     height: calc(100vh - 8rem);
     background-color: #2c3e50;
     top: 8rem;
-    left: -100%;
+    left: -150%;
     text-align: center;
     transition: all .5s;
+    display: flex;
     flex-direction: column;
+    justify-content: space-around ;
     z-index: 10;
   }
   nav ul li a{
@@ -446,18 +439,22 @@ select, option, textarea{
 }
 
 /*EXPERIENCIA*/
-@media (min-width: 768px) {
-  .experiencia__article {
-    height: 78rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100%;
-    column-gap: 10rem;
-  }
-  .experiencia__texto {
-    font-size: medium;
+@media (min-width:768px) {
+  iframe{
     width: 60rem;
-    gap: 10rem;
+    height: 30rem;
+  }
+  
+}
+
+@media (min-width: 1025px) {
+  
+  .experiencia__texto {
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    width: 100rem;
+   
   }
   iframe {
     width: 70rem;
@@ -486,6 +483,16 @@ select, option, textarea{
   .clientes__div p {
     font-size: 2rem;
   }
+
+  .carousel-item img{
+  height: 80rem;
+}
+
+.carousel-caption h5,
+.carousel-caption p{
+  color: #000;
+  font-weight: 600;
+}
 }
 
 /*HORARIOS*/
