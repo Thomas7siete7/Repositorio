@@ -134,16 +134,11 @@ footer {
   gap: 3rem;
 }
 
-.experiencia__video {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
-}
 
 iframe {
-  width: 25rem;
+  width: 30rem;
   border: 0.2rem solid blue;
-}
+} 
 
 /*CLIENTES*/
 .clientes {
@@ -405,11 +400,7 @@ select, option, textarea{
     width: 100rem;
    
   }
-  iframe {
-    width: 70rem;
-    height: 40.5rem;
-  }
-}
+} 
 
 /*CLIENTES*/
 @media (min-width: 768px) {
