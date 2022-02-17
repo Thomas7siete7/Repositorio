@@ -1,3 +1,4 @@
+/*RESETS*/
 * { 
     margin: 0;
     padding: 0;
@@ -24,77 +25,72 @@ body {
     font-size: 2.5rem;
 }
 
-/*RESETS*/
-
-/*Header*/
-.navbar-nav{
-    gap: 2rem !important;
-  }
-  
-  
-  /*RECICLADOS*/
-  .presentacion__texto {
+/*RECICLADOS*/
+.presentacion__texto {
     position: relative;
-  }
+}
   
-  span {
+span {
     color: blue;
     font-size: 2.5rem;
-  }
+}
   
-  .quienSoy__article,
-  .experiencia__texto,
-  .formulario__datos {
+.quienSoy__article,
+.experiencia__texto,
+.formulario__datos {
     display: flex;
     justify-content: space-evenly;
-  }
+}
   
-  .contenedor {
+.contenedor {
     max-width: 120rem;
     width: 90%;
     margin: 0rem auto;
   }
   
-  .flex {
+.flex {
     display: flex;
-  }
+}
   
+/*Header*/
+.navbar-nav{
+    gap: 2rem !important;
+}
+
   
-  /*FOOTER*/
-  footer h4,
-  footer p {
+/*FOOTER*/
+footer h4,
+footer p {
     font-size: medium;
-  }
+}
   
-  footer {
+footer {
     font-size: 1.5rem;
     height: 4rem;
     display: flex;
-  }
+}
   
-  /*INDEX*/
-  .presentacion {
-    margin-top: 5rem;
-  }
+/*INDEX*/
+
   
-  .presentacion__texto p {
+.presentacion__texto p {
     font-size: 1.3rem;
-  }
+}
   
-  .div__img {
+.div__img {
     margin-top: 1rem;
     height: 30rem;
     z-index: 1;
-  }
+}
   
-  .img-global {
+.img-global {
     height: 30rem;
-  }
+}
   
-  .fondo {
+.fondo {
     z-index: -4;
-  }
-  .fondo video {
+}
+.fondo video {
     position: absolute;
     top: 0;
     left: 0;
@@ -103,46 +99,46 @@ body {
     object-fit: cover;
     opacity: 0.15;
     pointer-events: none;
-  }
+}
   
-  /*QUIENSOY*/
-  .quienSoy__article {
+/*QUIENSOY*/
+.quienSoy__article {
     flex-direction: column;
-  }
-  .quienSoy__texto h2 {
+}
+.quienSoy__texto h2 {
     font-size: 2.5rem;
     margin-top: 2rem;
-  }
+}
   
-  .quienSoy__texto p {
+.quienSoy__texto p {
     font-size: 1.5rem;
-  }
+}
   
-  /*EXPERIENCIA*/
-  .experiencia__article,
-  .experiencia__texto {
+/*EXPERIENCIA*/
+.experiencia__article,
+.experiencia__texto {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  .experiencia__article {
+.experiencia__article {
     margin-top: 3rem;
-  }
+}
   
-  .experiencia__texto {
+.experiencia__texto {
     font-size: 1.3rem;
     gap: 3rem;
-  }
+}
   
   
-  iframe {
+iframe {
     width: 30rem;
     border: 0.2rem solid blue;
-  } 
+} 
   
-  /*CLIENTES*/
-  .clientes {
+/*CLIENTES*/
+.clientes {
     height: 81rem;
     padding: 1rem;
     display: grid;
@@ -151,181 +147,181 @@ body {
     align-items: center;
     column-gap: 1rem;
     row-gap: 1rem;
-  }
+}
   
-  .clientes__div {
+.clientes__div {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 0.2rem solid blue;
-  }
+}
   
-  .clientes__div p {
+.clientes__div p {
     font-size: 1.3rem;
-  }
+}
   
-  .clientes__div img {
+.clientes__div img {
     height: 10rem;
     width: 13.5rem;
-  }
+}
   
-  .carousel-item img{
+.carousel-item img{
     height: 40rem;
     width: 100%;
-  }
+}
   
   
   
-  /*HORARIO*/
-  .horario {
+/*HORARIO*/
+.horario {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 8rem;
-  }
+}
   
-  .horario h1 {
+.horario h1 {
     font-size: 2rem;
-  }
+}
   
-  .horarios__dias {
+.horarios__dias {
     width: 70%;
     height: 67rem;
     margin-top: 4rem;
     border-collapse: separate;
-  }
+}
   
-  .dias{
+.dias{
     text-align: center;
-  }
+}
   
-  .horarios__tabla th {
+.horarios__tabla th {
     margin-left: 4rem;
     font-size: 1.5rem;
-  }
+}
   
-  .horarios__tabla td {
+.horarios__tabla td {
     font-size: 1.3rem;
     text-align: center;
     background-color: rgb(27, 27, 27);
-  }
+}
   
-  .horarios__tabla td:hover {
+.horarios__tabla td:hover {
     background-color: rgba(0, 0, 255, 0.8);
-  }
+}
   
-  /*CONTACTO*/
-  .form__principal{
+/*CONTACTO*/
+.form__principal{
     max-width: 117rem;
     margin-left: auto;
     margin-right: auto;
     padding: 1.5rem;
-  }
+}
   
-  fieldset{
+fieldset{
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .input{
+.input{
     color: #000;
-  }
+}
   
-  .shadow{
+.shadow{
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-  }
+}
   
-  .shadow>*{
+.shadow>*{
     padding: 1rem;
-  }
+}
   
-  .contacto-form{
+.contacto-form{
     background-color: #222222;
-  }
+}
   
-  .contacto-form form{
+.contacto-form form{
     margin: 0;
     padding: 1rem;
-  }
+}
   
-  .contacto-form form input{
+.contacto-form form input{
     width: 100%;
     padding: .7rem;
     border: none;
     background: none;
     border-bottom: 0.1rem solid #3974fd;
-  }
+}
   
-  .boton{
+.boton{
     background: blue;
     margin: 4rem;
     color: #fff;
-  }
+}
   
-  select, option, textarea{
+select, option, textarea{
     color: #000;
-  }
+}
   
-  .enviar{
+.enviar{
     border: 0;
     text-transform: uppercase;
-  }
+}
   
-  .contacto-form form .block{
+.contacto-form form .block{
     grid-column: 1/3;
-  }
+}
   
   
-  .contacto-form form .boton:hover,
-  .contacto-form form .boton:focus{
+.contacto-form form .boton:hover,
+.contacto-form form .boton:focus{
     background: #d63059;
     color: #000;
     transition: background-color 1.5s ease;
     outline: 0;
-  }
+}
   
-  .form__info{
+.form__info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-  }
+}
   
-  .form-info ul{
+.form-info ul{
     text-align: center;
     margin: 0 0 1rem 0;
     list-style: none;
     padding: 0;
-  }
+}
   
-  .form-info ul li{
+.form-info ul li{
     padding: .3em;
-  }   
+}   
   
-  .form__info img{
+.form__info img{
     width: 12rem;
     height: 20rem;
     z-index: -1;
-  }
+}
   
                                             /*MEDIA QUERIS*/
-  /*FOOTER*/
-  @media (max-width: 768px) {
+/*FOOTER*/
+@media (max-width: 768px) {
     .align-items-end{
-      flex-direction: column;
-      align-items: center!important;
+        flex-direction: column;
+        align-items: center!important;
+        }
+    .margin{
+        margin-top: 4rem;
     }
-  .margin{
-    margin-top: 4rem;
-  }
     footer h4,
     footer p {
-      font-size: small;
+        font-size: small;
     }
-  }
+}
   
-  /*INDEX*/
-  @media (min-width: 480px) {
+/*INDEX*/
+@media (min-width: 480px) {
     .presentacion__texto p {
       font-size: 2rem;
     }
@@ -333,9 +329,9 @@ body {
     .img-global {
       margin-top: 3rem;
     }
-  }
+}
   
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .presentacion {
       height: 76rem;
     }
@@ -349,10 +345,10 @@ body {
       height: 80rem;
       width: 38.9rem;
     }
-  }
+}
   
-  /*QUIENSOY*/
-  @media (min-width: 768px) {
+/*QUIENSOY*/
+@media (min-width: 768px) {
     .quienSoy__article {
       display: flex;
       flex-direction: row-reverse;
@@ -381,18 +377,18 @@ body {
     .img-edit {
       width: 100rem;
     }
-  }
+}
   
-  /*EXPERIENCIA*/
-  @media (min-width:768px) {
+/*EXPERIENCIA*/
+@media (min-width:768px) {
     iframe{
       width: 60rem;
       height: 30rem;
     }
     
-  }
+}
   
-  @media (min-width: 1025px) {
+@media (min-width: 1025px) {
     
     .experiencia__texto {
       display: flex;
@@ -401,10 +397,10 @@ body {
       width: 100rem;
      
     }
-  } 
+} 
   
-  /*CLIENTES*/
-  @media (min-width: 768px) {
+/*CLIENTES*/
+@media (min-width: 768px) {
     .clientes {
       gap: 3rem;
       padding: 0;
@@ -434,10 +430,10 @@ body {
     color: #000;
     font-weight: 600;
   }
-  }
+}
   
-  /*HORARIOS*/
-  @media (min-width:768px) {
+/*HORARIOS*/
+@media (min-width:768px) {
     .horario h1 {
       font-size: 3rem;
     }
@@ -449,10 +445,10 @@ body {
     .horarios__tabla td {
       font-size: 1.5rem;
     }
-  }
+}
   
-  /*CONTACTO*/
-  @media (min-width: 768px) {
+/*CONTACTO*/
+@media (min-width: 768px) {
   
     fieldset{
       font-size: 3rem;
@@ -496,38 +492,38 @@ body {
       margin-left: 15rem;
       z-index: -1;
     }
-  }
+}
   
                                             /*ANIMACION*/
   
-  /*INDEX*/
-  .carrusel-caja{
+/*INDEX*/
+.carrusel-caja{
     display: flex;
     align-items: center;
     margin-top: 2rem;
   
-  }
-  .carrusel-contenedor{
+}
+.carrusel-contenedor{
     display: flex;
-  }
+}
   
-  .carrusel-contenedor ul{
+.carrusel-contenedor ul{
     margin-left: 1rem;
     position: relative;
     animation-name: carrusel;
     font-size: 2.5;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-  }
+}
   
-  .carrusel{
+.carrusel{
     height: 3rem;
     overflow: hidden;
-  }
-  .carrusel-contenedor ul li{
+}
+.carrusel-contenedor ul li{
     color: blue;
-  }
-  @keyframes carrusel {
+}
+@keyframes carrusel {
     0%{
       top: 0;
     }
@@ -540,4 +536,4 @@ body {
     100%{
       top: -8.8rem
     }
-  }
+} 
