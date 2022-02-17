@@ -58,15 +58,15 @@ span {
 }
 
 /*FOOTER*/
-footer h4,
-footer p {
-  font-size: medium;
-}
-
 footer {
   font-size: 1.5rem;
   height: 4rem;
   display: flex;
+}
+
+footer footer h4,
+footer footer p {
+  font-size: medium;
 }
 
 /*INDEX*/
@@ -100,25 +100,23 @@ footer {
 }
 
 /*QUIENSOY*/
-.quienSoy__article {
+.quienSoy__texto {
   flex-direction: column;
 }
 
-.quienSoy__texto h2 {
+.quienSoy__texto .quienSoy__texto h2 {
   font-size: 2.5rem;
   margin-top: 2rem;
 }
 
-.quienSoy__texto p {
+.quienSoy__texto .quienSoy__texto p {
   font-size: 1.5rem;
 }
 
 /*EXPERIENCIA*/
 .experiencia__article,
 .experiencia__texto {
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .experiencia__article {
@@ -342,12 +340,7 @@ select, option, textarea {
 
 /*QUIENSOY*/
 @media (min-width: 768px) {
-  .quienSoy__article {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-  }
-  .quienSoy__texto h2 {
+  .quienSoy__texto h2, .quienSoy__texto h2 span {
     font-size: 5rem;
     margin-top: 2rem;
   }
@@ -358,12 +351,8 @@ select, option, textarea {
   .quienSoy__texto p {
     margin-left: 3rem;
   }
-  .div__img-edit {
-    width: 250rem;
-    height: 80rem;
-  }
   .img-edit {
-    width: 100rem;
+    width: 50rem;
   }
 }
 
@@ -377,10 +366,7 @@ select, option, textarea {
 
 @media (min-width: 1025px) {
   .experiencia__texto {
-    display: flex;
-    flex-direction: row;
     font-size: medium;
-    width: 100rem;
   }
 }
 
