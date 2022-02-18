@@ -167,6 +167,10 @@ iframe {
 }
 
 /*HORARIO*/
+.navbar-h {
+  display: block !important;
+}
+
 .horario {
   display: flex;
   flex-direction: column;
