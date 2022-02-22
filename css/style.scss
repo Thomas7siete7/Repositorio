@@ -9,8 +9,6 @@
     color: whitesmoke;
 } 
 
-
-
 html {
   /*1 rem= 10px*/
   font-size: 62.5%;
@@ -32,6 +30,10 @@ body {
 /*Header*/
 .navbar-nav{
   gap: 2rem !important;
+}
+
+.navbar-h{
+  display: block !important;
 }
   
   
@@ -108,9 +110,10 @@ footer {
 }
   
 /*QUIENSOY*/
-.quienSoy__article {
+.quienSoy__texto {
   flex-direction: column;
 }
+
 .quienSoy__texto h2 {
   font-size: 2.5rem;
   margin-top: 2rem;
