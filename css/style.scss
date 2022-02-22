@@ -1,3 +1,4 @@
+/*RESETS*/
 * { 
     margin: 0;
     padding: 0;
@@ -7,7 +8,9 @@
     list-style: none !important;
     color: whitesmoke;
 } 
-  
+
+
+
 html {
   /*1 rem= 10px*/
   font-size: 62.5%;
@@ -409,7 +412,7 @@ select, option, textarea{
     padding: 0;
   }
   
-  .clientes__div {
+.clientes__div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,7 +425,7 @@ select, option, textarea{
   
   .clientes__div p {
     font-size: 2rem;
-  }
+}
   
   .carousel-item img{
    height: 80rem;
