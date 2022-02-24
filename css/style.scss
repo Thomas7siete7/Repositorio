@@ -1,3 +1,5 @@
+@import "_variables";
+
 /*RESETS*/
 * { 
     margin: 0;
@@ -15,21 +17,21 @@ html {
 }
   
 body {
-  font-size: 2rem;
+  font-size: $medio-rem;
   font-family: "Roboto Slab", serif;
   background-color: rgb(22, 22, 22);
 }
   
 .color{
   color: #fff;
-  font-size: 2.5rem;
+  font-size: $medio;
 }
 
 /*RESETS*/
 
 /*Header*/
 .navbar-nav{
-  gap: 2rem !important;
+  gap: $medio-rem !important;
 }
 
 .navbar-h{
@@ -43,8 +45,8 @@ body {
 }
   
 span {
-  color: blue;
-  font-size: 2.5rem;
+  color: $azul;
+  font-size: $medio;
 }
   
 .quienSoy__article,
@@ -82,7 +84,7 @@ footer {
 }
   
 .presentacion__texto p {
-  font-size: 1.3rem;
+  font-size: $chico;
 }
   
 .div__img {
@@ -115,8 +117,8 @@ footer {
 }
 
 .quienSoy__texto h2 {
-  font-size: 2.5rem;
-  margin-top: 2rem;
+  font-size: $medio;
+  margin-top: $medio-rem;
 }
   
 .quienSoy__texto p {
@@ -132,18 +134,18 @@ footer {
 }
   
 .experiencia__article {
-  margin-top: 3rem;
+  margin-top: $mediano-rem;
 }
   
 .experiencia__texto {
-  font-size: 1.3rem;
-  gap: 3rem;
+  font-size: $chico;
+  gap: $mediano-rem;
 }
   
   
 iframe {
   width: 30rem;
-  border: 0.2rem solid blue;
+  border: 0.2rem solid $azul;
 } 
   
 /*CLIENTES*/
@@ -162,10 +164,10 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 0.2rem solid blue;
+  border: 0.2rem solid $azul;
 
   p {
-    font-size: 1.3rem;
+    font-size: $chico;
   }
     
   img {
@@ -187,7 +189,7 @@ iframe {
   margin-top: 8rem;
 
   h1 {
-    font-size: 2rem;
+    font-size: $medio-rem;
   }
 }
   
@@ -209,7 +211,7 @@ iframe {
   }
 
   td {
-    font-size: 1.3rem;
+    font-size: $chico;
     text-align: center;
     background-color: rgb(27, 27, 27);
   
@@ -232,18 +234,6 @@ fieldset{
   flex-direction: column;
 }
   
-.input{
-  color: #000;
-}
-  
-.shadow{
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-}
-  
-.shadow>*{
-  padding: 1rem;
-}
-  
 .contacto-form{
   background-color: #222222;
 
@@ -262,7 +252,7 @@ fieldset{
 }
  
 .boton{
-  background: blue;
+  background: $azul;
   margin: 4rem;
   color: #fff;
 }
@@ -283,7 +273,7 @@ select, option, textarea{
   
 .contacto-form form .boton:hover,
 .contacto-form form .boton:focus{
-  background: #d63059;
+  background: $rojo-hover;
   color: #000;
   transition: background-color 1.5s ease;
   outline: 0;
@@ -332,11 +322,11 @@ select, option, textarea{
 /*INDEX*/
 @media (min-width: 480px) {
   .presentacion__texto p {
-    font-size: 2rem;
+    font-size: $medio-rem;
   }
   
   .img-global {
-    margin-top: 3rem;
+    margin-top: $mediano-rem;
   }
 }
   
@@ -366,16 +356,20 @@ select, option, textarea{
   
   .quienSoy__texto h2 {
     font-size: 5rem;
-    margin-top: 2rem;
+    margin-top: $medio-rem;
+
+    span{
+      font-size: 5rem;
+    }
   }
   
   .quienSoy__texto p {
-    font-size: 2.5rem;
+    font-size: $medio;
   }
   
   .quienSoy__texto h2,
   .quienSoy__texto p {
-    margin-left: 3rem;
+    margin-left: $mediano-rem;
   }
   
   .div__img-edit {
@@ -411,7 +405,7 @@ select, option, textarea{
 /*CLIENTES*/
 @media (min-width: 768px) {
   .clientes {
-    gap: 3rem;
+    gap: $mediano-rem;
     padding: 0;
   }
   
@@ -419,7 +413,7 @@ select, option, textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 0.2rem solid blue;
+    border: 0.2rem solid $azul;
   }
   .clientes__div img {
     height: 20rem;
@@ -427,7 +421,7 @@ select, option, textarea{
   }
   
   .clientes__div p {
-    font-size: 2rem;
+    font-size:$medio-rem;
 }
   
   .carousel-item img{
@@ -444,11 +438,11 @@ select, option, textarea{
 /*HORARIOS*/
 @media (min-width:768px) {
   .horario h1 {
-    font-size: 3rem;
+    font-size: $mediano-rem;
   }
     
   .horarios__tabla th {
-    font-size: 2rem;
+    font-size:$medio-rem;
   }
     
   .horarios__tabla td {
@@ -460,7 +454,7 @@ select, option, textarea{
 @media (min-width: 768px) {
   
   fieldset{
-    font-size: 3rem;
+    font-size: $mediano-rem;
   }
 
   .separar{
@@ -470,7 +464,7 @@ select, option, textarea{
   }
   .contacto-form form input{
     height: 5rem;
-    font-size: 2rem;
+    font-size:$medio-rem;
   }
   
   .form__info{
@@ -503,7 +497,7 @@ select, option, textarea{
 .carrusel-caja{
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top:$medio-rem;
   
 }
 .carrusel-contenedor{
@@ -514,17 +508,17 @@ select, option, textarea{
   margin-left: 1rem;
   position: relative;
   animation-name: carrusel;
-  font-size: 2.5;
+  font-size: $medio;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
   
 .carrusel{
-  height: 3rem;
+  height: $mediano-rem;
   overflow: hidden;
 }
 .carrusel-contenedor ul li{
-  color: blue;
+  color: $azul;
 }
 @keyframes carrusel {
   0%{

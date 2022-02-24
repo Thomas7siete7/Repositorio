@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/*COLORES*/
+/*TAMAÑOS*/
 /*RESETS*/
 * {
   margin: 0;
@@ -227,18 +230,6 @@ fieldset {
   flex-direction: column;
 }
 
-.input {
-  color: #000;
-}
-
-.shadow {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-}
-
-.shadow > * {
-  padding: 1rem;
-}
-
 .contacto-form {
   background-color: #222222;
 }
@@ -358,6 +349,9 @@ select, option, textarea {
   .quienSoy__texto h2 {
     font-size: 5rem;
     margin-top: 2rem;
+  }
+  .quienSoy__texto h2 span {
+    font-size: 5rem;
   }
   .quienSoy__texto p {
     font-size: 2.5rem;
@@ -488,7 +482,7 @@ select, option, textarea {
   margin-left: 1rem;
   position: relative;
   animation-name: carrusel;
-  font-size: 2.5;
+  font-size: 2.5rem;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
