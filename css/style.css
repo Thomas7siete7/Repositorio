@@ -439,11 +439,6 @@ select, option, textarea {
   fieldset {
     font-size: 3rem;
   }
-  .contacto-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
-  }
   .separar {
     display: grid;
     grid-template-columns: 1fr 1fr;
