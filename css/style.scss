@@ -48,7 +48,7 @@ span {
   color: $azul;
   font-size: $medio;
 }
-  
+
 .quienSoy__article,
 .experiencia__texto,
 .formulario__datos {
@@ -129,8 +129,8 @@ footer {
 .experiencia__article,
 .experiencia__texto {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  @extend .quienSoy__texto
 }
   
 .experiencia__article {

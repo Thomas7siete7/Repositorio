@@ -111,16 +111,19 @@ footer h4, footer p {
 }
 
 /*QUIENSOY*/
-.quienSoy__texto {
+.quienSoy__texto, .experiencia__article,
+.experiencia__texto {
   flex-direction: column;
 }
 
-.quienSoy__texto h2 {
+.quienSoy__texto h2, .experiencia__article h2,
+.experiencia__texto h2 {
   font-size: 2.5rem;
   margin-top: 2rem;
 }
 
-.quienSoy__texto p {
+.quienSoy__texto p, .experiencia__article p,
+.experiencia__texto p {
   font-size: 1.5rem;
 }
 
@@ -128,7 +131,6 @@ footer h4, footer p {
 .experiencia__article,
 .experiencia__texto {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -346,18 +348,23 @@ select, option, textarea {
     flex-direction: row-reverse;
     justify-content: space-evenly;
   }
-  .quienSoy__texto h2 {
+  .quienSoy__texto h2, .experiencia__article h2,
+  .experiencia__texto h2 {
     font-size: 5rem;
     margin-top: 2rem;
   }
-  .quienSoy__texto h2 span {
+  .quienSoy__texto h2 span, .experiencia__article h2 span,
+  .experiencia__texto h2 span {
     font-size: 5rem;
   }
-  .quienSoy__texto p {
+  .quienSoy__texto p, .experiencia__article p,
+  .experiencia__texto p {
     font-size: 2.5rem;
   }
-  .quienSoy__texto h2,
-  .quienSoy__texto p {
+  .quienSoy__texto h2, .experiencia__article h2,
+  .experiencia__texto h2,
+  .quienSoy__texto p, .experiencia__article p,
+  .experiencia__texto p {
     margin-left: 3rem;
   }
   .div__img-edit {
