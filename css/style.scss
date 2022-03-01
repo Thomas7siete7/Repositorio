@@ -1,14 +1,14 @@
 @import "_variables";
 
 /*RESETS*/
-* { 
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    text-decoration: none !important;
-    list-style: none !important;
-    color: whitesmoke;
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  color: whitesmoke;
 } 
 
 html {
@@ -104,8 +104,7 @@ footer {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  @include sizes(100%, 100%);
   object-fit: cover;
   opacity: 0.15;
   pointer-events: none;
@@ -171,14 +170,12 @@ iframe {
   }
     
   img {
-    height: 10rem;
-    width: 13.5rem;
+    @include sizes(13.5rem, 10rem);
   }
 }
   
 .carousel-item img{
-  height: 40rem;
-  width: 100%;
+  @include sizes(100%, 40rem);
 }
 
 /*HORARIO*/
@@ -194,8 +191,7 @@ iframe {
 }
   
 .horarios__dias {
-  width: 70%;
-  height: 67rem;
+  @include sizes(70%, 67rem);
   margin-top: 4rem;
   border-collapse: separate;
 }
@@ -298,8 +294,7 @@ select, option, textarea{
 }   
   
 .form__info img{
-  width: 12rem;
-  height: 20rem;
+  @include sizes(12rem, 20rem);
   z-index: -1;
 }
   
@@ -336,13 +331,11 @@ select, option, textarea{
   }
   
   .div__img {
-    height: 70rem;
-    width: 100rem;
+    @include sizes(100rem, 70rem);
     overflow: hidden;
   }
   .img-global {
-    height: 80rem;
-    width: 38.9rem;
+    @include sizes(38.9rem, 80rem);
   }
 }
   
@@ -373,8 +366,7 @@ select, option, textarea{
   }
   
   .div__img-edit {
-    width: 250rem;
-    height: 80rem;
+    @include sizes(250rem, 80rem);
   }
   
   .img-edit {
@@ -385,8 +377,7 @@ select, option, textarea{
 /*EXPERIENCIA*/
 @media (min-width:768px) {
   iframe{
-    width: 60rem;
-    height: 30rem;
+    @include sizes(60rem,30rem);
   }
     
 }
@@ -416,8 +407,7 @@ select, option, textarea{
     border: 0.2rem solid $azul;
   }
   .clientes__div img {
-    height: 20rem;
-    width: 30rem;
+    @include sizes(30rem, 20rem);
   }
   
   .clientes__div p {
@@ -480,12 +470,10 @@ select, option, textarea{
   }
   .contact__img{
     position: absolute;
-    height: 45rem;
-    width: 38rem;
+    @include sizes(38rem, 45rem);
   }
   .form__info img{
-    width: 40rem;
-    height: 60rem;
+    @include sizes(40rem, 60rem);
     margin-left: 15rem;
     z-index: -1;
   }

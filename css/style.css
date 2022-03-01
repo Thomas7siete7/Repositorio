@@ -172,13 +172,13 @@ iframe {
 }
 
 .clientes__div img {
-  height: 10rem;
   width: 13.5rem;
+  height: 10rem;
 }
 
 .carousel-item img {
-  height: 40rem;
   width: 100%;
+  height: 40rem;
 }
 
 /*HORARIO*/
@@ -331,13 +331,13 @@ select, option, textarea {
     height: 76rem;
   }
   .div__img {
-    height: 70rem;
     width: 100rem;
+    height: 70rem;
     overflow: hidden;
   }
   .img-global {
-    height: 80rem;
     width: 38.9rem;
+    height: 80rem;
   }
 }
 
@@ -406,8 +406,8 @@ select, option, textarea {
     border: 0.2rem solid blue;
   }
   .clientes__div img {
-    height: 20rem;
     width: 30rem;
+    height: 20rem;
   }
   .clientes__div p {
     font-size: 2rem;
@@ -462,8 +462,8 @@ select, option, textarea {
   }
   .contact__img {
     position: absolute;
-    height: 45rem;
     width: 38rem;
+    height: 45rem;
   }
   .form__info img {
     width: 40rem;

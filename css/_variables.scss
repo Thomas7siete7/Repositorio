@@ -1,8 +1,13 @@
 /*COLORES*/
-$azul: blue;
-$rojo-hover: #d63059;
+$colores:(azul: rgb(2, 2, 245), rojo-hover: #d63059);
+
 
 /*TAMAÑOS*/
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
 $chico: 1.3rem;
 $medio: 2.5rem;
 $medio-rem: 2rem;
