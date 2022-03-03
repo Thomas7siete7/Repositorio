@@ -45,7 +45,7 @@ body {
 }
   
 span {
-  color: $azul;
+  color: map-get($map: $colores, $key: 'azul');
   font-size: $medio;
 }
 
@@ -144,7 +144,7 @@ footer {
   
 iframe {
   width: 30rem;
-  border: 0.2rem solid $azul;
+  border: 0.2rem solid map-get($map: $colores, $key: 'azul');;
 } 
   
 /*CLIENTES*/
@@ -163,7 +163,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 0.2rem solid $azul;
+  border: 0.2rem solid map-get($map: $colores, $key: 'azul');
 
   p {
     font-size: $chico;
@@ -248,7 +248,7 @@ fieldset{
 }
  
 .boton{
-  background: $azul;
+  background: map-get($map: $colores, $key: 'azul');
   margin: 4rem;
   color: #fff;
 }
@@ -269,7 +269,7 @@ select, option, textarea{
   
 .contacto-form form .boton:hover,
 .contacto-form form .boton:focus{
-  background: $rojo-hover;
+  background: map-get($map: $colores, $key: 'rojo-hover');
   color: #000;
   transition: background-color 1.5s ease;
   outline: 0;
@@ -404,7 +404,7 @@ select, option, textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 0.2rem solid $azul;
+    border: 0.2rem solid map-get($map: $colores, $key: 'azul');
   }
   .clientes__div img {
     @include sizes(30rem, 20rem);
@@ -506,7 +506,7 @@ select, option, textarea{
   overflow: hidden;
 }
 .carrusel-contenedor ul li{
-  color: $azul;
+  color: map-get($map: $colores, $key: 'azul');
 }
 @keyframes carrusel {
   0%{

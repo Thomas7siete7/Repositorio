@@ -44,7 +44,7 @@ body {
 }
 
 span {
-  color: blue;
+  color: #0202f5;
   font-size: 2.5rem;
 }
 
@@ -145,7 +145,7 @@ footer h4, footer p {
 
 iframe {
   width: 30rem;
-  border: 0.2rem solid blue;
+  border: 0.2rem solid #0202f5;
 }
 
 /*CLIENTES*/
@@ -164,7 +164,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 0.2rem solid blue;
+  border: 0.2rem solid #0202f5;
 }
 
 .clientes__div p {
@@ -250,7 +250,7 @@ fieldset {
 }
 
 .boton {
-  background: blue;
+  background: #0202f5;
   margin: 4rem;
   color: #fff;
 }
@@ -403,7 +403,7 @@ select, option, textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 0.2rem solid blue;
+    border: 0.2rem solid #0202f5;
   }
   .clientes__div img {
     width: 30rem;
@@ -500,7 +500,7 @@ select, option, textarea {
 }
 
 .carrusel-contenedor ul li {
-  color: blue;
+  color: #0202f5;
 }
 
 @keyframes carrusel {
