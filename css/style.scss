@@ -99,16 +99,17 @@ footer {
   
 .fondo {
   z-index: -4;
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include sizes(100%, 100%);
+    object-fit: cover;
+    opacity: 0.15;
+    pointer-events: none;
+  }
 }
-.fondo video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  @include sizes(100%, 100%);
-  object-fit: cover;
-  opacity: 0.15;
-  pointer-events: none;
-}
+
   
 /*QUIENSOY*/
 .quienSoy__texto {
