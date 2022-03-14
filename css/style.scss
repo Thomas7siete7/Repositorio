@@ -376,36 +376,12 @@ select, option, textarea{
   
 /*CLIENTES*/
 @media (min-width: 768px) {
-  .clientes {
-    gap: $mediano-rem;
-    padding: 0;
-  }
-  
-.clientes__div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.2rem solid map-get($map: $colores, $key: 'azul');
-  }
-  .clientes__div img {
-    @include sizes(30rem, 20rem);
-  }
-  
-  .clientes__div p {
-    font-size:$medio-rem;
-}
-  
   .carousel-item img{
-   height: 80rem;
+    height: 80rem;
   }
-  
-  .carousel-caption h5,
-  .carousel-caption p{
-    color: #000;
-    font-weight: 600;
-  }
-}
-  
+} 
+
+
 /*HORARIOS*/
 @media (min-width:768px) {
   .horario h1 {
@@ -503,3 +479,4 @@ select, option, textarea{
     top: -8.8rem
   }
 }
+
